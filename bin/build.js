@@ -16,10 +16,10 @@ async function main() {
     fs.writeFileSync(path.resolve(__dirname, "..", "dist", "index.html"), content);
 
     await markdown.build(path.resolve(__dirname, "..", "src", "api"), path.resolve(__dirname, "..", "dist", "api"),
-        path.resolve(__dirname, "..", "src", "_templates", "page.ejs"), { current: "api", rootDir: ".." });
+        path.resolve(__dirname, "..", "src", "_templates", "page.ejs"), { current: "api", rootDir: "./.." });
 
     await markdown.build(path.resolve(__dirname, "..", "src", "docs"), path.resolve(__dirname, "..", "dist", "docs"),
-        path.resolve(__dirname, "..", "src", "_templates", "page.ejs"), { current: "docs", rootDir: ".." });
+        path.resolve(__dirname, "..", "src", "_templates", "page.ejs"), { current: "docs", rootDir: "./.." });
 
 }
 main();
