@@ -1,0 +1,45 @@
+.splash {
+  padding: 20px;
+  background-color: grey;
+}
+
+.bd-masthead {
+  padding: 3rem 0;
+  background: linear-gradient(0deg, #ED7D31 50%, #ff9966 50%);
+  background: linear-gradient(0deg, rgba(237, 125, 49, 0.9) 0%, rgba(237, 125, 49, 1) 100%);
+}
+
+@media (min-width: 768px) {
+
+  .bbn-splash-image {
+    height: 350px;
+  }
+}
+
+/* Sizing of material icons */
+.material-icons.md-12 { font-size: 12px; }
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+.material-icons.md-64 { font-size: 64px; }
+
+/* Sticky footer styles. Makes sure the footer sticks to the bottom when the page content height is small. */
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 70px;
+  margin-top: 25px;
+}
+
+body {
+  margin-bottom: 70px;
+}
+/* End Sticky footer styles */

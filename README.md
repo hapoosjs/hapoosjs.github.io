@@ -1,2 +1,2 @@
 # hapoosjs.github.io
-Source code and distribution for Hapoos.js Website
+Hapoos.js Website source code and generated files

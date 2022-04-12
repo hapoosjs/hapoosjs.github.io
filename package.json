@@ -1,0 +1,30 @@
+{
+  "name": "@hapoosjs/hapoos-website",
+  "version": "1.0.0",
+  "description": "Source and distribution for Hapoos.js Website",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hapoosjs/hapoosjs.github.io.git"
+  },
+  "keywords": [
+    "hapoos.js",
+    "Website"
+  ],
+  "author": "Padmanabh Dabke",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hapoosjs/hapoosjs.github.io/issues"
+  },
+  "homepage": "https://github.com/hapoosjs/hapoosjs.github.io#readme",
+  "devDependencies": {
+    "ejs": "^3.1.6",
+    "markdown-it": "^12.3.2",
+    "parcel": "^2.4.1"
+  }
+}
