@@ -11,4 +11,6 @@ Hapoos.js provides an API, defined as a collection of Typescript interfaces,  th
 Hapoos.js is availble as a set of NPM packages, each package providing an API or implementation of a type of cloud resource such as cloud buckets. Currently, the following packages are available:
 * @hapoosjs/api-common - Common classes and interfaces shared by all Hapoos.js modules
 * @hapoosjs/api-buckets - API for managing cloud buckets
+* @hapoosjs/api-certs - API for managing SSL/TLS certificates
 * @hapoosjs/aws-buckets - AWS implementation of buckets API
+* @hapoosjs/aws-certs - AWS implementation of Certificates API
