@@ -7,12 +7,12 @@
 <b>Signature:</b>
 
 ```typescript
-constructor(options: CreateBucketsOptions);
+constructor(options: BaseOptions);
 ```
 
 ## Parameters
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  options | [CreateBucketsOptions](./api-buckets.createbucketsoptions.md) |  |
+|  options | [BaseOptions](./api-common.baseoptions.md) |  |
 

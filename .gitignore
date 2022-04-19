@@ -1,6 +1,7 @@
 
 .parcel-cache
 .DS_Store
+.hapoos-cache
 # Logs
 logs
 *.log

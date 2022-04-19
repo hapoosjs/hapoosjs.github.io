@@ -1,11 +1,12 @@
 {
   "name": "@hapoosjs/hapoos-website",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Source and distribution for Hapoos.js Website",
   "directories": {
     "doc": "docs"
   },
   "scripts": {
+    "build": "node bin/build.js && npx parcel build --dist-dir docs .hapoos-cache/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

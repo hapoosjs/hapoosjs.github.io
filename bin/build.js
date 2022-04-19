@@ -5,20 +5,20 @@ const ejs = require('ejs');
 const markdown = require("./markdown")
 // let indexjs = fs.readFileSync(path.resolve(__dirname, "..", "src", "index.ejs")).toString();
 async function main() {
-    var outDir = path.resolve(__dirname, "..", "dist");
+    var outDir = path.resolve(__dirname, "..", ".hapoos-cache");
     fs.rmSync(outDir, { recursive: true, force: true });
     fs.mkdirSync(outDir);
     copyFolderRecursiveSync(path.resolve(__dirname, "..", "src", "css"),
-        path.resolve(__dirname, "..", "dist"))
+        path.resolve(__dirname, "..", ".hapoos-cache"))
     copyFolderRecursiveSync(path.resolve(__dirname, "..", "src", "images"),
-        path.resolve(__dirname, "..", "dist"))
+        path.resolve(__dirname, "..", ".hapoos-cache"))
     let content = await ejs.renderFile(path.resolve(__dirname, "..", "src", "index.ejs"), { current: "", rootDir: "." });
-    fs.writeFileSync(path.resolve(__dirname, "..", "dist", "index.html"), content);
+    fs.writeFileSync(path.resolve(__dirname, "..", ".hapoos-cache", "index.html"), content);
 
-    await markdown.build(path.resolve(__dirname, "..", "src", "api"), path.resolve(__dirname, "..", "dist", "api"),
+    await markdown.build(path.resolve(__dirname, "..", "src", "api"), path.resolve(__dirname, "..", ".hapoos-cache", "api"),
         path.resolve(__dirname, "..", "src", "_templates", "page.ejs"), { current: "api", rootDir: "./.." });
 
-    await markdown.build(path.resolve(__dirname, "..", "src", "docs"), path.resolve(__dirname, "..", "dist", "docs"),
+    await markdown.build(path.resolve(__dirname, "..", "src", "docs"), path.resolve(__dirname, "..", ".hapoos-cache", "docs"),
         path.resolve(__dirname, "..", "src", "_templates", "page.ejs"), { current: "docs", rootDir: "./.." });
 
 }

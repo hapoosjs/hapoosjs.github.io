@@ -8,7 +8,7 @@ Common classes shared by all other Hapoos.js API modules
 
 ## Remarks
 
-Version 1.0.0
+Version 1.1.0
 
 ## Classes
 
@@ -16,6 +16,7 @@ Version 1.0.0
 |  --- | --- |
 |  [BaseOptions](./api-common.baseoptions.md) | Base class for options that allows passing of provider-specific options. |
 |  [BaseResponse](./api-common.baseresponse.md) | Base class for all results returned by API calls. |
+|  [DNSRecord](./api-common.dnsrecord.md) | DNS record entry such as CNAME, TXT, etc. |
 |  [ListOptions](./api-common.listoptions.md) | Options passed to any operation that requests paginated lists |
 |  [ListResponse](./api-common.listresponse.md) | Root object for all paginated response objects |
 

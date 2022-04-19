@@ -8,7 +8,7 @@ API for managing cloud buckets
 
 ## Remarks
 
-Version 1.0.0
+Version 1.1.0
 
 ## Classes
 
@@ -21,7 +21,6 @@ Version 1.0.0
 |  [BucketList](./api-buckets.bucketlist.md) | List of buckets returned in response to list or search query |
 |  [BucketWebsiteConfiguration](./api-buckets.bucketwebsiteconfiguration.md) | Website configuration when a bucket is used to store Web pages for a site |
 |  [CreateBucketOptions](./api-buckets.createbucketoptions.md) | Optional configuration specified at bucket creation. |
-|  [CreateBucketsOptions](./api-buckets.createbucketsoptions.md) | Optional settings passed to create [Buckets](./api-buckets.buckets.md) instance |
 |  [DeleteBucketOptions](./api-buckets.deletebucketoptions.md) | Optional configuration specified at bucket creation |
 |  [EncryptionSettings](./api-buckets.encryptionsettings.md) | Optional settings passed to set default encryption policy on [Buckets](./api-buckets.buckets.md) instance |
 |  [FileVersion](./api-buckets.fileversion.md) | Provides metadata about a file version |

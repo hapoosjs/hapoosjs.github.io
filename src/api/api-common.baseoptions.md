@@ -23,4 +23,5 @@ export declare class BaseOptions
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
 |  [providerOptions?](./api-common.baseoptions.provideroptions.md) |  | any | <i>(Optional)</i> Provider-specific options |
+|  [region?](./api-common.baseoptions.region.md) |  | string | <i>(Optional)</i> Default region for bucket creation and access |
 

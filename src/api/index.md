@@ -9,6 +9,8 @@
 |  Package | Description |
 |  --- | --- |
 |  [@hapoosjs/api-buckets](./api-buckets.md) | API for managing cloud buckets |
+|  [@hapoosjs/api-certs](./api-certs.md) | API for managing SSL certificates |
 |  [@hapoosjs/api-common](./api-common.md) | Common classes shared by all other Hapoos.js API modules |
 |  [@hapoosjs/aws-buckets](./aws-buckets.md) | AWS implementation of hapoos.js buckets API |
+|  [@hapoosjs/aws-certs](./aws-certs.md) | AWS implementation of hapoos.js SSL/TLS certificates API |
 
